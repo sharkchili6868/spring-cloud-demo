@@ -8,7 +8,9 @@ import org.springframework.web.bind.annotation.*;
 public class ProducerEurekaController {
 
     @GetMapping("produce/{id}")
-    public String getUser(@PathVariable int id) {
+    public String getUser(@PathVariable int id)
+    {
+        System.out.println("producer called");
         return "chris" + id;
     }
 

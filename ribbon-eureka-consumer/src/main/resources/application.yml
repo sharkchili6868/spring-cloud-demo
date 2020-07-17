@@ -1,9 +1,8 @@
-debug: false
 spring:
   application:
-    name: spring-cloud-producer
+    name: spring-cloud-ribbon-consumer
 server:
-  port: 9906
+  port: 8803
 eureka:
   client:
     serviceUrl:

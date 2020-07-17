@@ -3,7 +3,7 @@ spring:
   application:
     name: spring-cloud-producer
 server:
-  port: 9905
+  port: 9906
 eureka:
   client:
     serviceUrl:
