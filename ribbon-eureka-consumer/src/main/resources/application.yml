@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: spring-cloud-ribbon-consumer
+server:
+  port: 8803
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/

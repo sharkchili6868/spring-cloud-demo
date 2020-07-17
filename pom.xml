@@ -9,6 +9,9 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>eureka-server</module>
+        <module>producer-eureka</module>
+        <module>consumer-eureka</module>
+        <module>ribbon-eureka-consumer</module>
     </modules>
 
     <packaging>pom</packaging>

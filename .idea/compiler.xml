@@ -6,13 +6,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="producer-eureka" />
+        <module name="consumer-eureka" />
         <module name="eureka-server" />
+        <module name="ribbon-eureka-consumer" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="consumer-eureka" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
+      <module name="producer-eureka" options="-parameters" />
+      <module name="ribbon-eureka-consumer" options="-parameters" />
     </option>
   </component>
 </project>

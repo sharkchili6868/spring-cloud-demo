@@ -1,0 +1,10 @@
+debug: false
+spring:
+  application:
+    name: spring-cloud-producer
+server:
+  port: 9906
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
